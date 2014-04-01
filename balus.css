@@ -7,16 +7,10 @@ body
   background-size: cover;
 }
 
-div
-{
-  background: inherit;
-}
-
 header
 {
   margin-top: 120px;
   margin-bottom: 100px;
-  background: inherit;
 }
 
 header .logo
@@ -29,19 +23,9 @@ article
   position: relative;
   padding: 40px;
   margin-bottom: 20px;
-  background: inherit;
-  border: 10px solid rgba(255,255,255,.15);
-  box-shadow: 1px 1px 4px rgba(0,0,0,.3);
-}
-
-article:before
-{
-  content: "";
-  background: inherit;
-  position: absolute;
-  top: 0; left:0; right:0; bottom:0;
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 10px rgba(255,255,255,.7);
+  border-radius: 10px;
 }
 
 article p
@@ -57,6 +41,7 @@ content
 footer
 {
   font-size: 80%;
+  margin-bottom: 10px;
 }
 
 .center
